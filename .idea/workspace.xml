@@ -2,41 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a186aaf5-7f04-429d-ab62-02719f731ec6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen-sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/chosen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/oss-credit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/img/clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/configuracion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/configuracion_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/home_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/ordenes_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/medicamentos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/modificar_orden.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.proto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/prism.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/index.proto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/css/bootstrap-editable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/js/bootstrap-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/js/bootstrap-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/modulos/configuracion/medicamentos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/modulos/ordenes/modificar_orden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pediatria/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proyecto-pediatria.sublime-project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proyecto-pediatria.sublime-workspace" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pediatria.iws" />
@@ -177,6 +142,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pediatria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pediatria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -250,7 +229,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452912077243</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Push total">
+      <created>1452912361486</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452912361486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -296,7 +281,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Primer Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer Push" />
+    <MESSAGE value="Push total" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push total" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
