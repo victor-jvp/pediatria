@@ -1,197 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a186aaf5-7f04-429d-ab62-02719f731ec6" name="Default" comment="Primer Push">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/changelog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/active_record.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/caching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/call_function.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/configuration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/connecting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/fields.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/forge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/helpers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/queries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/results.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/table_data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/transactions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/database/utilities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/doc_style/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/doc_style/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/alternative_php.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/ancillary_classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/autoloader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/caching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/cli.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/common_functions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/controllers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/core_classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/creating_drivers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/creating_libraries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/credits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/drivers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/environments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/errors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/helpers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/hooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/libraries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/managing_apps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/models.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/profiling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/quick_reference.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/requirements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/reserved_names.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/routing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/styleguide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/urls.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/general/views.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/array_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/captcha_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/cookie_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/date_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/directory_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/download_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/email_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/file_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/form_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/html_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/inflector_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/language_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/number_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/path_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/security_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/smiley_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/string_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/text_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/typography_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/url_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/helpers/xml_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/appflowchart.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/ci_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/ci_logo_flame.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/ci_quick_ref.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/codeigniter_1.7.1_helper_reference.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/codeigniter_1.7.1_helper_reference.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/codeigniter_1.7.1_library_reference.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/codeigniter_1.7.1_library_reference.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/folder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/nav_bg_darker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/nav_separator_darker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/nav_toggle_darker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/reactor-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/images/transparent.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/downloads.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/troubleshooting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_120.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_130.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_131.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_132.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_133.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_140.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_141.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_150.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_152.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_153.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_154.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_160.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_161.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_162.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_163.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_170.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_171.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_172.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_200.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_201.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_202.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_203.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_210.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_211.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_212.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_213.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_214.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_220.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_221.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_222.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_223.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_224.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_225.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrade_b11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/installation/upgrading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/benchmark.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/caching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/config.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/email.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/encryption.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/file_uploading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/form_validation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/ftp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/image_lib.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/input.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/loader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/migration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/parser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/sessions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/trackback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/unit_testing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/uri.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/user_agent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/xmlrpc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/libraries/zip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/license.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/nav/hacks.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/nav/moo.fx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/nav/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/nav/prototype.lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/nav/user_guide_menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/appflow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/at_a_glance.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/cheatsheets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/features.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/getting_started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/goals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/overview/mvc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/tutorial/conclusion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/tutorial/create_news_items.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/tutorial/hard_coded_pages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/tutorial/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/tutorial/news_section.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/tutorial/static_pages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user_guide/userguide.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+    <list default="true" id="a186aaf5-7f04-429d-ab62-02719f731ec6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen-sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/chosen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/oss-credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/img/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/configuracion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/configuracion_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/home_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/ordenes_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/medicamentos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/modificar_orden.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.proto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/chosen.proto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/prism.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/prism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/docsupport/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/index.proto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/chosen/options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/css/bootstrap-editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/js/bootstrap-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bower_components/editable/js/bootstrap-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/modulos/configuracion/medicamentos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/modulos/ordenes/modificar_orden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pediatria/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proyecto-pediatria.sublime-project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proyecto-pediatria.sublime-workspace" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ordenes.php" afterPath="$PROJECT_DIR$/application/controllers/ordenes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pacientes.php" afterPath="$PROJECT_DIR$/application/controllers/pacientes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pacientes_model.php" afterPath="$PROJECT_DIR$/application/models/pacientes_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index.php" afterPath="$PROJECT_DIR$/application/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/modificar_paciente.php" afterPath="$PROJECT_DIR$/application/views/modificar_paciente.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/nueva_orden.php" afterPath="$PROJECT_DIR$/application/views/nueva_orden.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/nuevo_paciente.php" afterPath="$PROJECT_DIR$/application/views/nuevo_paciente.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/plantillas/front_end/sidebar.php" afterPath="$PROJECT_DIR$/application/views/plantillas/front_end/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/plantillas/front_end/topbar.php" afterPath="$PROJECT_DIR$/application/views/plantillas/front_end/topbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/modulos/ordenes/nueva_orden.js" afterPath="$PROJECT_DIR$/assets/js/modulos/ordenes/nueva_orden.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/modulos/pacientes/editar_paciente.js" afterPath="$PROJECT_DIR$/assets/js/modulos/pacientes/editar_paciente.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
     </list>
     <ignored path="pediatria.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -212,58 +58,7 @@
     <favorites_list name="pediatria" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ordenes_model.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/ordenes_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19101124">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuracion_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/configuracion_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="medicamentos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/medicamentos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuracion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/configuracion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="medicamentos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/modulos/configuracion/medicamentos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -395,13 +190,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pediatria\application\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\pediatria\assets\css\default" />
       <recent name="C:\xampp\htdocs\pediatria\assets\js\default" />
       <recent name="C:\xampp\htdocs\pediatria\assets\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\pediatria\application\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -449,6 +244,13 @@
       <option name="number" value="Default" />
       <updated>1447608941329</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primer Push">
+      <created>1452912077243</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452912077243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -827,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/configuracion_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="2.1011236">
           <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
           <folding />
         </state>
@@ -835,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/medicamentos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5457464">
           <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
           <folding />
         </state>
@@ -843,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/configuracion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.46388444">
           <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
           <folding />
         </state>
@@ -851,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/modulos/configuracion/medicamentos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.7596302">
           <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
           <folding />
         </state>
