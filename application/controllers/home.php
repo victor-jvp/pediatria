@@ -7,25 +7,30 @@ class Home extends CI_Controller {
 	{
 		parent::__construct();
 		//Do your magic here
+		$this->load->model('home_model');
 	}
 	public function index()
 	{
+
+		$data = $this->home_model->data_info();
+		$datos['ordenes'] 	= $data['ordenes'];
+		$datos['pacientes'] = $data['pacientes'];
+
 		//----Cargar Css y Js del Form----
 		//Agregar Css
 		$datos['cssFiles'] = array(
 			//base_url('assets/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css')
-			
 		);
 
 		//Agregar Js
 		$datos['jsFiles'] = array(
-			base_url('assets/js/jquery.knob.js'),
+			//base_url('assets/js/jquery.knob.js'),
 			//base_url('assets/dist/js/jquery.knob.min.js'),
-			base_url('assets/js/torta.js'),
+			//base_url('assets/js/torta.js'),
 		);
 		//---------------------------------
 
-        $datos['titulo'] = "Sistema de Ordenes Médicas. Pediatria V-2.0";
+        $datos['titulo'] = "Inicio - Sistema de Ordenes Médicas.";
         $datos['contenido'] = "index";
         $this->load->view('plantillas/plantilla', $datos);
 	}

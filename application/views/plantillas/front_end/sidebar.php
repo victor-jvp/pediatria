@@ -25,7 +25,7 @@
                                     <a href="<?php echo base_url()?>ordenes/nueva-orden">Nueva</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modificar</a>
+                                    <a href="<?php echo base_url()?>ordenes/modificar-orden">Modificar</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -42,8 +42,22 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-edit fa-fw"></i> Reportes</a>
+                            <a href="#"><i class="fa fa-edit fa-fw"></i> Reportes<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Recipes</a>
+                                </li>
+                            </ul>
                         </li>
+                        <li>
+                            <a href="#"><i class="fa fa-gears fa-fw"></i> Configuración<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?php echo base_url()?>configuracion/medicamentos">Medicamentos</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <!-- <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">

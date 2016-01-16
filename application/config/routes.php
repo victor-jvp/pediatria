@@ -43,9 +43,17 @@ $route['404_override'] = '';
 
 $route['pacientes/nuevo-paciente'] = 'pacientes/nuevo_paciente';
 $route['pacientes/modificar-paciente'] = 'pacientes/modificar_paciente';
-$route['ordenes/nueva-orden'] = 'ordenes/nueva_orden';
-$route['pacientes/ajax-modificar-paciente'] = 'pacientes/ajax_modificar_paciente';
 
+$route['pacientes/ajax-tabla-paciente'] = 'pacientes/ajax_tabla_paciente';
+
+$route['ordenes/nueva-orden'] = 'ordenes/nueva_orden';
+$route['ordenes/modificar-orden'] = 'ordenes/modificar_orden';
+
+$route['ordenes/ajax-tabla-ordenes'] = 'ordenes/ajax_tabla_ordenes';
+$route['ordenes/ajax-informacion-paciente'] = 'ordenes/ajax_informacion_paciente';
+$route['ordenes/ajax-datos-recipe'] = 'ordenes/ajax_datos_recipe';
+
+$route['configuracion/ajax-medicamento-info'] = 'configuracion/ajax_medicamento_info';
 //$route['ordenes'] = "ordenes/index";
 
 /* End of file routes.php */

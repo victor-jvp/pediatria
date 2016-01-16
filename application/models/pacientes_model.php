@@ -112,7 +112,7 @@ class Pacientes_model extends CI_Model
         return $result;
     }
 
-    function get_pacientes_by_id($id_paciente){
+    function get_paciente_by_id($id_paciente){
 
         $campos = array(
             'id_paciente',

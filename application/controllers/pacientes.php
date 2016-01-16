@@ -59,20 +59,20 @@ class Pacientes extends CI_Controller {
 		);
 		//---------------------------------
 
-		$datos['titulo'] = "Sistema de Ordenes Médicas. Pacientes";
+		$datos['titulo'] = "Ingresar Paciente Nuevo.";
 		$datos['contenido'] = "nuevo_paciente";
 		$this->load->view('plantillas/plantilla', $datos);
 		//$this->Pacientes_model->nuevo_paciente($data);
 
 	}
 
-	public function ajax_modificar_paciente(){
+	public function ajax_tabla_paciente(){
 
 		//Just Allow ajax request
 		if($this->input->is_ajax_request())
 		{
 			$id_paciente = $this->input->post('id_paciente');
-			$response =  $this->pacientes_model->get_pacientes_by_id($id_paciente);
+			$response =  $this->pacientes_model->get_paciente_by_id($id_paciente);
 			
 			$json = '{"results":['.json_encode($response).']}';
 			echo $json;
@@ -125,10 +125,11 @@ class Pacientes extends CI_Controller {
 		//die();
 
 		//Cargar vista
-		$datos['titulo'] = "Sistema de Ordenes Médicas. Pacientes";
+		$datos['titulo'] = "Pacientes Registrados.";
         $datos['contenido'] = "modificar_paciente";
         $this->load->view('plantillas/plantilla', $datos);
 	}
+
 }
 
 /* End of file pacientes.php */

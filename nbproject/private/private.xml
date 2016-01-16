@@ -3,10 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/pediatria/application/models/pacientes_model.php</file>
-            <file>file:/C:/xampp/htdocs/pediatria/application/controllers/pacientes.php</file>
-            <file>file:/C:/xampp/htdocs/pediatria/application/views/modificar_paciente.php</file>
-            <file>file:/C:/xampp/htdocs/pediatria/assets/js/modulos/pacientes/editar_paciente.js</file>
+            <file>file:/C:/xampp/htdocs/pediatria/assets/js/modulos/configuracion/medicamentos.js</file>
         </group>
     </open-files>
 </project-private>

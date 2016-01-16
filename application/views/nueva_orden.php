@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Orden Nueva</h1>
+                <h1 class="page-header"><?php echo $titulo;?></h1>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -15,17 +15,25 @@
                             Datos del Paciente
                         </div>
                         <div class="panel-body">
-
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-5">
+                                    <label>Paciente</label>
+
                                     <div class="form-group">
-                                        <label>Paciente</label>
-                                        <input class="form-control" name="paciente"
-                                               value="<?php echo set_value('paciente'); ?>" readonly>
-                                        <input type="hidden" id="id_paciente">
+                                        <select class="chosen-select" id="paciente" required>
+                                            <option value="0">Seleccione...</option>
+                                            <?php
+                                            foreach ($pacientes as $paciente) {
+                                                ?>
+                                                <option
+                                                    value="<?php echo $paciente['id_paciente']; ?>"><?php echo $paciente['paciente']; ?></option>
+                                                <?php
+                                            }
+                                            ?>s
+                                        </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <label>Fecha de Nacimiento</label>
 
                                     <div class="form-group input-group">
@@ -34,207 +42,22 @@
                                         </span>
                                         <input class="form-control" type="text" name="fecha_nacimiento"
                                                id="fecha_nacimiento"
-                                               value="<?php echo set_value('fecha_nacimiento'); ?>" readonly required>
+                                               value="<?php echo set_value('fecha_nacimiento'); ?>" readonly>
                                     </div>
                                 </div>
                                 <div class="col-lg-2">
                                     <div class="form-group">
                                         <label>Edad</label>
-                                        <input class="form-control" name="edad" readonly>
+                                        <input class="form-control" name="edad" id="edad" readonly>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="form-group">
+                                        <label>Nro. Historia</label>
+                                        <input class="form-control" name="id_paciente" id="id_paciente" readonly>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Boton de Abrir Modal-->
-                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal_paciente">
-                                Seleccionar Paciente
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="modal_paciente" tabindex="-1" role="dialog"
-                                 aria-labelledby="myModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal"
-                                                    aria-hidden="true">&times;</button>
-                                            <h4 class="modal-title" id="myModalLabel">Buscar Paciente</h4>
-                                        </div>
-                                        <form method="post" role="form" id="buscarPaciente"
-                                              action="<?php echo base_url(); ?>pacientes/buscar-paciente">
-                                            <div class="modal-body">
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label>Nombre del Paciente</label>
-                                                            <input class="form-control" name="paciente" id="paciente"
-                                                                   value="" required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3">
-                                                        <div class="form-group">
-                                                            <label>Nro. Historia</label>
-                                                            <input class="form-control" name="id_paciente"
-                                                                   id="id_paciente" readonly>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <label>Fecha de Nacimiento</label>
-
-                                                        <div class="form-group input-group">
-                                                        <span class="input-group-addon">
-                                                            <i class="fa fa-calendar"></i>
-                                                        </span>
-                                                            <input class="form-control" name="fecha_nacimiento"
-                                                                   id="fecha_nacimiento"
-                                                                   value="<?php echo set_value('fecha_nacimiento'); ?>"
-                                                                   readonly>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label>Titular</label>
-                                                            <input class="form-control" name="titular" id="titular"
-                                                                   value=""
-                                                                   required>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label>Cédula Titular</label>
-                                                            <input class="form-control" name="cedula_titular"
-                                                                   id="cedula_titular" value="" required>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label>Antecedentes Pre-Natales</label>
-                                                            <input class="form-control" name="ant_prenatales"
-                                                                   id="ant_prenatales" value="" required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label>Producto de</label>
-                                                            <select class="form-control" name="producto" id="producto">
-                                                                <?php
-                                                                foreach ($campos as $value) {
-                                                                    if ($value['campo'] == "producto") {
-                                                                        ?>
-                                                                        <option
-                                                                            value="<?php echo $value['valor']; ?>"><?php echo $value['texto']; ?></option>
-                                                                        <?php
-                                                                    }
-                                                                }
-                                                                ?>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="form-group">
-                                                            <label>Complicaciones al Nacer</label>
-                                                            <input class="form-control" name="complicaciones"
-                                                                   id="complicaciones" value="" required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label>Obtenido por</label>
-                                                            <select class="form-control" name="obtenido_por"
-                                                                    id="obtenido_por">
-                                                                <?php
-                                                                foreach ($campos as $value) {
-                                                                    if ($value['campo'] == "obtenido_por") {
-                                                                        ?>
-                                                                        <option
-                                                                            value="<?php echo $value['valor']; ?>"><?php echo $value['texto']; ?></option>
-                                                                        <?php
-                                                                    }
-                                                                }
-                                                                ?>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label>Semanas de Gestación</label>
-                                                            <input class="form-control" name="semanas" id="semanas"
-                                                                   value=""
-                                                                   required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-
-                                                        <div class="form-group">
-                                                            <label>Peso al Nacer</label>
-                                                            <input class="form-control" name="pan" id="pan" value=""
-                                                                   required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-
-                                                        <div class="form-group">
-                                                            <label>Tamaño al Nacer</label>
-                                                            <input class="form-control" name="tan" id="tan" value=""
-                                                                   required>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label>Antecedentes Personales</label>
-                                                            <input class="form-control" name="ant_personales"
-                                                                   id="ant_personales" value="" required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6">
-
-                                                        <div class="form-group">
-                                                            <label>Antecedentes Familiares</label>
-                                                            <input class="form-control" name="ant_familiares"
-                                                                   id="ant_familiares" value="" required>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="form-group">
-                                                            <label>Vacunas</label>
-                                                            <input class="form-control" name="vacunas" id="vacunas"
-                                                                   value=""
-                                                                   required>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <?php echo validation_errors(); ?>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type=reset class="btn btn-default" data-dismiss="modal">Cerrar
-                                                </button>
-                                                <button type="submit" class="btn btn-outline btn-success"
-                                                        id="modificar">
-                                                    Guardar Cambios
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!-- /.modal-content -->
-                                </div>
-                                <!-- /.modal-dialog -->
-                            </div>
-                            <!-- /.modal -->
                         </div>
                     </div>
                 </div>
@@ -247,14 +70,111 @@
                         </div>
                         <div class="panel-body">
                             <div class="row">
-                                <div class="col-lg-7">
+                                <div class="col-lg-3">
+                                    <label>Fecha de la Consulta</label>
+
+                                    <div class="form-group input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                                        <input class="form-control" name="fecha_consulta" id="fecha_consulta">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
                                     <div class="form-group">
-                                        <label>Orden Label</label>
-                                        <input class="form-control" name=""
-                                               value="<?php echo set_value('paciente'); ?>">
+                                        <label>Peso</label>
+                                        <input class="form-control" name="peso" id="peso">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="form-group">
+                                        <label>Altura</label>
+                                        <input class="form-control" name="altura" id="altura">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <label>C.C.</label>
+                                        <input class="form-control" name="cc" id="cc">
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Síntomas del paciente</label>
+                                        <textarea class="form-control" rows="2" name="sintomas"
+                                                  id="sintomas"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label>Diagnóstico</label>
+                                        <textarea class="form-control" rows="2" name="diagnostico"
+                                                  id="diagnostico"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            Tratamiento e Indicaciones
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-striped" id="tablaMed">
+                                            <thead>
+                                            <tr>
+                                                <th>Medicamentos</th>
+                                                <th>Indicaciones</th>
+                                                <th></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr id="heredar0">
+                                                <td>
+                                                    <select class="form-control" name="recipes[0][id_medicamento]" id="medicamento0">
+                                                        <option value="0">Seleccione...</option>
+                                                        <?php
+                                                        foreach ($medicamentos as $medicamento) {
+                                                            ?>
+                                                            <option
+                                                                value="<?php echo $medicamento['id_medicamento']; ?>"><?php echo $medicamento['medicamento']; ?></option>
+                                                            <?php
+                                                        }
+                                                        ?>
+                                                    </select></td>
+                                                <td>
+                                                    <input class="form-control" name="recipes[0][indicacion]" id="indicacion0">
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn-success" type="button" id="agregar"
+                                                            value="0">Agregar
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label>Observaciones</label>
+                                        <textarea class="form-control" rows="2" name="observaciones"
+                                                  id="observaciones"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline btn-success" name="guardar" id="guardar">Guardar Orden</button>
                         </div>
                     </div>
                 </div>

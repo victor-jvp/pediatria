@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url()?>"><?php echo $titulo; ?></a>
+                <a class="navbar-brand" href="<?php echo base_url()?>">Sistema de Ordenes Médicas V2.0. -PEDIATRIA-</a>
             </div>
             <!-- /.navbar-header -->
 

@@ -41,7 +41,7 @@ $(document).ready(function () {
         var id_paciente = data[0];
 
         $.ajax({
-            url: 'ajax-modificar-paciente',
+            url: 'ajax-tabla-paciente',
             type: 'POST',
             //async: true,
             cache: false,
