@@ -27,7 +27,9 @@ class Configuracion extends CI_Controller {
 		}
 
 		$medicamentos = $this->configuracion_model->load_medicamentos();
+		$unidades = $this->configuracion_model->load_unidades();
         $datos['medicamentos'] = $medicamentos;
+		$datos['unidades'] = $unidades;
 
         //----Cargar Css y Js del Form----
         //Agregar Css

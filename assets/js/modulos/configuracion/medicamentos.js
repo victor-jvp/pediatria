@@ -25,6 +25,7 @@ $('#id_medicamento').on("change", function(e){
                 $.each(json.results[0], function (i, result) {
                     $('#medicamento').val(result['medicamento']);
                     $('#status').val(result['status']).prop('selected', true);
+                    $('#id_unidad').val(result['id_unidad']).prop('selected', true);
                 });
             }
         });
