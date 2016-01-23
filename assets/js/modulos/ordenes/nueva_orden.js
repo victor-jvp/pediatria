@@ -22,6 +22,28 @@ $(document).ready(function () {
         width: "100%"
     });
 
+    $(".med").on('change', function(){
+        var id_med = $(this).val();
+        if(id_med != 0){
+            $.ajax({
+                url: 'ajax-medicamento-info',
+                type: 'POST',
+                //async: true,
+                cache: false,
+                dataType: 'json',
+                data: 'id_med=' + id_med,
+            }).done(function (json) {
+
+                //If json object is not empty.
+                if ($.isEmptyObject(json.results[0]) == false) {
+                    $.each(json.results[0], function (i, result) {
+
+                    });
+                }
+            });
+        }
+    });
+
     //Obtener fecha actual
     var today = moment().format("DD-MM-YYYY");
     $('#fecha_consulta').val(today);
@@ -44,25 +66,13 @@ $(document).ready(function () {
                 if ($.isEmptyObject(json.results[0]) == false) {
                     //var i = 0;
                     $.each(json.results[0], function (i, result) {
+
                         $('#id_paciente').val(result['id_paciente']);
-                        //$('#paciente').val(result['paciente']);
-                        //$('#cedula_titular').val(result['cedula_titular']);
-                        //$('#titular').val(result['titular']);
                         var fecha = moment(result['fecha_nacimiento']).format("DD-MM-YYYY");
                         $('#fecha_nacimiento').val(fecha);
                         var edad = calcAge(result['fecha_nacimiento']);
                         $('#edad').val(edad);
-                        /*$('#ant_prenatales').val(result['ant_prenatales']);
-                         $('#producto').val(result['producto']);
-                         $('#complicaciones').val(result['complicaciones']);
-                         $('#obtenido_por').val(result['obtenido_por']);
-                         $('#semanas').val(result['semanas']);
-                         $('#pan').val(result['pan']);
-                         $('#tan').val(result['tan']);
-                         $('#ant_personales').val(result['ant_personales']);
-                         $('#ant_familiares').val(result['ant_familiares']);
-                         $('#vacunas').val(result['vacunas']);
-                         i++;*/
+
                     });
 
                     //$('#modal_paciente').modal('toggle');
@@ -160,6 +170,7 @@ $(document).ready(function () {
         var indice = 0;
         indice = parseInt($('#agregar').val()) + 1;
         var select = document.getElementById("medicamento0");
+        var selectU = document.getElementById("unidad0");
         var tr = document.getElementById("heredar0");
         var tr2 = tr.cloneNode(true);
         //tr.remove();
@@ -171,22 +182,25 @@ $(document).ready(function () {
         var cell1 = row.insertCell(0);
         var cell2 = row.insertCell(1);
         var cell3 = row.insertCell(2);
-
-        //var input = document.createElement("input");
+        var cell4 = row.insertCell(3);
 
         var selectC = select.cloneNode(true);
         selectC.setAttribute("name", "recipes["+indice+"][id_medicamento]");
         selectC.setAttribute("id", "medicamento" + indice);
         selectC.setAttribute("value", "0");
+        var selectC2 = selectU.cloneNode(true);
+        selectC2.setAttribute("name", "recipes["+indice+"][id_unidad]");
+        selectC2.setAttribute("id", "unidad" + indice);
+        selectC2.setAttribute("value", "0");
         var input2 = inpu.cloneNode(true);
         input2.setAttribute("id", "indicacion" + indice);
         input2.setAttribute("name", "recipes["+indice+"][indicacion]");
         input2.value = "";
 
-
         cell1.appendChild(selectC);
-        cell2.appendChild(input2);
-        cell3.innerHTML = '<button class="btn btn-danger" type="button" id="eliminar" data-index="' + indice + '">Eliminar</button>';
+        cell2.appendChild(selectC2);
+        cell3.appendChild(input2);
+        cell4.innerHTML = '<button class="btn btn-danger" type="button" id="eliminar" data-index="' + indice + '">Eliminar</button>';
 
         $('#agregar').attr("value", indice);
 

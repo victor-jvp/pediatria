@@ -133,14 +133,14 @@
                                             <thead>
                                             <tr>
                                                 <th>Medicamentos</th>
+                                                <th>Unidad</th>
                                                 <th>Indicaciones</th>
-                                                <th></th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr id="heredar0">
                                                 <td>
-                                                    <select class="form-control" name="recipes[0][id_medicamento]" id="medicamento0">
+                                                    <select class="form-control med" name="recipes[0][id_medicamento]" id="medicamento0" data-row="">
                                                         <option value="0">Seleccione...</option>
                                                         <?php
                                                         foreach ($medicamentos as $medicamento) {
@@ -150,7 +150,21 @@
                                                             <?php
                                                         }
                                                         ?>
-                                                    </select></td>
+                                                    </select>
+                                                </td>
+                                                <td>
+                                                    <select class="form-control uni" name="recipes[0][id_unidad]" id="unidad0" data-row="">
+                                                        <option value="0">Seleccione...</option>
+                                                        <?php
+                                                        foreach ($unidades as $unidad) {
+                                                            ?>
+                                                            <option
+                                                                value="<?php echo $unidad['id_unidad']; ?>"><?php echo $unidad['unidad']; ?></option>
+                                                            <?php
+                                                        }
+                                                        ?>
+                                                    </select>
+                                                </td>
                                                 <td>
                                                     <input class="form-control" name="recipes[0][indicacion]" id="indicacion0">
                                                 </td>

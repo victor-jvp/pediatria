@@ -53,6 +53,8 @@ class Ordenes extends CI_Controller
 
         $medicamentos = $this->configuracion_model->load_medicamentos_activos();
         $datos['medicamentos'] = $medicamentos;
+        $unidades = $this->configuracion_model->load_unidades_activas();
+        $datos['unidades'] = $unidades;
 
         //----Cargar Css y Js del Form----
         //Agregar Css

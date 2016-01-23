@@ -58,6 +58,24 @@ class Configuracion_model extends CI_Model {
         return $result;
     }
 
+    function load_unidades_activas(){
+        $fields = array(
+            "id_unidad",
+            "unidad",
+        );
+        $clause = array(
+            "status" => "activo"
+        );
+
+        $result = $this->db->select($fields)
+            ->from('unidades')
+            ->order_by('unidad', 'ASC')
+            ->get()
+            ->result_array();
+
+        return $result;
+    }
+
     function get_medicamento_by_id($id_med=NULL){
 
         $fields = array(
